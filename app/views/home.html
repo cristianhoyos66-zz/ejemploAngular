@@ -1,0 +1,14 @@
+{{homeVm.heroes}}
+
+<button
+   ng-click="homeVm.addHeroe()">agregar héroe
+</button>
+
+<ul>
+  <li
+     ng-repeat="heroe in homeVm.heroes">
+    {{heroe.name}}
+  </li>
+</ul>
+
+{{homeVm.global}}
