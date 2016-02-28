@@ -1,12 +1,9 @@
-# ejemplo
+# ejemploAngular
+Ejemplo de angularJS
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
+Recordar ejecutar:
 
-## Build & development
+1. bower install.
+2. npm install.
+3. grunt serve (si no inicia el servidor ejecutar grunt serve --force)
 
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
